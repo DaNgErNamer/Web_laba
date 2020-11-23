@@ -1,0 +1,79 @@
+
+
+h2{
+	
+	margin:0;
+	font-family:'Roboto Mono', monospace;
+	color:#1f1f1f;
+	text-align: center;
+	background-color:#E91E63;
+	font-size: 33px;
+}
+h3{
+	margin:bottom;
+	font-family:'Roboto Mono', monospace;
+	color:#E91E63;
+	font-size: x-large;
+	text-align: center;
+  background-color:#1f1f1f;
+}
+
+h4{
+  margin:bottom;
+	font-family:'Roboto Mono', monospace;
+	color:#E91E63;
+	font-size: x-large;
+	text-align: center;
+  background-color: #1f1f1f;
+}
+
+footer{
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #E91E63;
+}
+
+.button{
+	cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family:'Roboto Mono', monospace;
+    min-width: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px;
+    background: #1f1f1f;
+    color: #E91E63;
+}
+.button:hover{
+	color: black
+}
+body{
+	margin:0;
+	background:black;
+}
+
+
+.image{
+	border-radius: 10%;
+  width:854px;
+  height: 480px;
+  background-image:url(Kayle.jpg);
+  background-position: center center;
+  background-size:cover;
+  float:left;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #1f1f1f;
+  height: 100%;
+}
+
