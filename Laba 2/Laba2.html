@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8" />
+<title>Лабораторная №2</title>
+<link rel="stylesheet" type="text/css" href="Laba2.css">
+<script src="Laba2.js"></script>
+</head>
+
+<body>
+
+ <h1>Манаенков Кирилл ИДБ-18-01</h1>
+
+ <h2><br>Задание 1.1: <br> К вводимой строке добавляется "-New" </h2>
+ <input  class="field" id="arg1" name="arg1" />
+ <input name="button" type="submit" class="button" onclick="Return_Arg();">
+
+<h2>Задание 1.2: <br>Вводим 3 элемента массива, через пробел, если всё введено правильно, то выведется сумма элементов массива</h2>
+<input  class="field" id="arg2" name="arg2" />
+<input name="button" type="submit" class="button" onclick="Arr_Sum();">
+<input  class="field" id="arg2_ans" name="arg" hidden=true />
+
+<h2>Задание 1.2: <br> Все элементы массива ( за исключение пробелов ) изменяются:
+<br>Если элемент число - возводится в квадрат
+<br>Если элемент не число - превращается в 0</h2>
+<input name="button" type="submit" class="button" onclick="Arr_Trans();" >
+
+<p class="answer" id="arg3_ans"></p>
+
+</body>
+</html>

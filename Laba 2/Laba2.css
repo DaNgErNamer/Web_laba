@@ -1,0 +1,77 @@
+body{
+	background: linear-gradient(45deg,#1f1f1f,#E91E63,#1f1f1f);
+	min-height: 1000px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+	margin:0;
+}
+	
+h1{
+	font-family: 'Roboto Mono', monospace;
+	line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+	color: #E91E63;
+	margin:0;
+    font-size: 40px;
+    background: #1f1f1f;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color: #1f1f1f;
+    font-size: 25px;
+    text-shadow:  #1f1f1f 0 0 20px;
+}
+
+input{
+    background-color: chartreuse;
+}
+
+.button
+{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    color: #E91E63;
+    border-color: #1f1f1f;
+    margin-bottom: auto;
+    height: 25px;
+    width: 250px;
+    font-size: 18px;
+}
+.button:hover{
+    border-color: #E91E63;
+}
+.button:active
+{
+    border-color:#E91E63;
+}
+.button:focus
+{
+    border-color: #E91E63;
+}
+
+
+.answer{
+font-size: 25px;
+color: #E91E63;
+background-color: #1f1f1f;
+}
+
+.field{
+    color: #E91E63;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    border-color: #E91E63;
+    width: 350px;
+    height: 35px;
+    font-size: 25px ;
+    
+}
+	
+	
+	
+	
+	
+	
+	
